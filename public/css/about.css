@@ -1,0 +1,164 @@
+.main {
+    min-height: 660px;
+}
+
+.art-intor-left-wenben p {
+    text-indent: 2rem;
+    font-size: 14.5px;
+}
+
+.art-intor-left {
+    max-width: 690px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.art-intor-left-title {
+    margin: 0px auto;
+    float: left;
+    height: 35px;
+    width: 100%;
+    font-size: 24px;
+    color: #00B895;
+    text-indent: 0.2em;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.fankuai {
+    float: left;
+    width: 5px;
+    height: 32px;
+    background-color: #00B895;
+}
+
+.art-intor-left-wenben {
+    font-size: 14px;
+    color: rgb(61, 61, 61);
+    line-height: 1.714;
+}
+
+.art-left-little-pic {
+    width: 100%;
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.art-left-pic {
+    float: left;
+    width: 100%;
+    max-width: 120px;
+    border: 2px solid #00B895;
+    border-radius: 120px;
+}
+
+.art-left-pic img {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 100%;
+    background: #00b895;
+}
+
+.art-left-little-pic-text {
+    margin: 10px auto;
+    font-size: 18px;
+    color: #00B895;
+    line-height: 2.333;
+    text-align: center;
+}
+
+.art-intor-right-pic {
+    float: left;
+    width: 100%;
+    max-width: 500px;
+    height: 390px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art-intor-right-pic img {
+    max-width: 100%;
+    display: block;
+    max-height: 100%;
+}
+
+.art-intor-left-pic2 img {
+    width: 100%;
+}
+
+.art-intor-center-wenz {
+    float: left;
+    width: 100%;
+    max-width: 1193px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(88, 88, 88);
+    line-height: 1.714;
+}
+
+.art-intor-center-wenz2 {
+    margin: 20px auto;
+    float: left;
+    width: 100%;
+    max-width: 1193px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(88, 88, 88);
+    line-height: 1.714;
+}
+
+.art-intor-left-pic2 {
+    width: 100%;
+    max-width: 255px;
+    border: 2px solid #ffd200;
+    max-height: 190px;
+    overflow: hidden;
+}
+
+.art-intor-right-title2 {
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: #00B895;
+    line-height: 1.2;
+}
+
+.art-intor-left-title2 {
+    text-align: right;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: #00B895;
+    line-height: 1.2;
+}
+
+.art-intor-right-wen {
+    width: 100%;
+    max-width: 920px;
+    height: 100%;
+}
+
+.art-intor-honor {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(63, 63, 63);
+    line-height: 1.625;
+    background-color: #dcdcdc;
+}
+
+.art-intor-honor span {
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+    color: rgb(106, 76, 27);
+    line-height: 1.075;
+}
+
+#ZD_About_Main img {
+    max-width: 60%;
+    margin: 10px auto;
+    display: block;
+}

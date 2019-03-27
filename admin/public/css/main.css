@@ -1,0 +1,19 @@
+.webInfoMain{
+    float: left;
+    overflow: auto;
+}
+.webInfoMain div span img{
+    width: unset!important;
+    height: unset!important;
+}
+.webInfoMain div label{
+    width: 85px;
+    line-height: 32px;
+}
+.webInfoMain textarea{
+    height: 105px;
+    resize: none;
+}
+.webInfoMain button{
+    float: right;
+}

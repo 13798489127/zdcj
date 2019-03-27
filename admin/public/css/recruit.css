@@ -1,0 +1,19 @@
+.zd_admin_right_content, .zd_admin_right_content * {
+    overflow: unset;
+    font-size: unset;
+}
+.ZD_Company,.ZD-UL,.ZD-Button,.ZD-UL li{
+    font-size: 14px;
+}
+.ZD_Company_Title {
+    padding-bottom: 10px;
+    line-height: 32px;
+}
+.ZD_Company_Title label {
+    margin-right: 10px;
+}
+.ZD_Company_Title input {
+    height: 32px;
+    border: 1px solid #ccc;
+    width: 300px;
+}

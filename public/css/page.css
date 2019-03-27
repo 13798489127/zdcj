@@ -1,0 +1,60 @@
+.control_page {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: #00b895;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.control_page > div {
+    display: flex;
+    justify-content: center;
+}
+.control_page_pagination > div {
+    padding: 0px 12px;
+    text-decoration: none;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    height: 35px;
+    line-height: 33px;
+}
+.control_page_pagination > i {
+    color: #777;
+    cursor: not-allowed;
+    padding: 0px 12px;
+    text-decoration: none;
+    background-color: #fff;
+    margin: 2px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    height: 35px;
+    line-height: 33px;
+}
+.control_page_pagination > div:hover {
+    z-index: 2;
+    color: #333;
+    background-color: #eee;
+}
+.control_page_pagination > .control_page_active,
+.control_page_pagination > .control_page_active:hover,
+.control_page_pagination > .control_page_button:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #00B895;
+}
+.control_page_skip span {
+    padding: 9px 3px;
+    font-size: 14px;
+}
+.control_page_skip input {
+    border: 1px solid #eee;
+    width: 50px;
+    height: 33px;
+    margin-top: 3px;
+}

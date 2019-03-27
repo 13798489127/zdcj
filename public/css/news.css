@@ -1,0 +1,135 @@
+.main {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.news-List{
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+}
+.news-List-left{
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 25px;
+    border-bottom: 1px solid #eee;
+}
+.news-List-left p{
+    font-size: 13px;
+    color: #888888;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+}
+.news-List-left span{
+    font-weight: bold;
+    color: #4f4f4f;
+    font-size: 16px;
+}
+.news-List-right{
+    float: left;
+    width: calc(100% - 75px);
+    height: 70px;
+    margin-left: 5px;
+    border-bottom: 1px solid #eee;
+}
+.news-List-right-title{
+    font-size: 14px;
+    color: #424242;
+    margin: 0;
+    margin-top: 5px;
+}
+.news-List-right-content{
+    font-size: 13px;
+    color: #888888;
+    word-break: break-all;
+    margin-top: 7px;
+}
+.news-List-right-content *{
+    float: left;
+}
+.news-left {
+    width: 100%;
+    max-width: 900px;
+}
+.news-right {
+    width: 100%;
+    max-width: 275px;
+    margin: 20px auto;
+}
+.ZD-NewsList ,.news-right-product{
+    margin-top: 20px;
+}
+ul {
+    padding: 0px;
+    margin-top: 20px;
+}
+.news-right-class-title {
+    font-size: 18px;
+
+    color: rgb(1, 184, 149);
+}
+.ZD-NewsList{
+    width: 100%;
+    height: 35px;
+    border: 1px solid #00B895;
+}
+.ZD-NewsList li{
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    padding: 0 15px;
+}
+.ZD-NewsList li:hover,.RightActive{
+    background: #00B895;
+    color:#Fff;
+}
+.news-classify {
+    float: left;
+    width: 270px;
+    list-style: none;
+    margin-top: 20px;
+    padding-bottom: 3px;
+	cursor: pointer
+}
+.news-right-product {
+    float: left;
+    width: 100%;
+    max-width: 270px;
+}
+.news-right-border {
+    float: left;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 270px;
+}
+.news-classify-pic {
+    float: left;
+    width: 100%;
+    max-width: 85px;
+    border: 2px solid #13bb9b;
+    overflow: hidden;
+}
+.news-classify-pic img {
+    width: 100%;
+	cursor: pointer
+}
+.news-classify-text {
+    float: left;
+    width: 100%;
+    max-width: 160px;
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(54, 54, 54);
+    line-height: 1.1;
+}
+.news-classify-text p{
+    margin: 0;
+    margin-top: 5px;
+    color: #888888;
+}

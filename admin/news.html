@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>深圳市正东厨房设备有限公司-新闻管理</title>
+    <link rel="stylesheet" href="public/css/public.css">
+    <link rel="stylesheet" href="public/css/news.css">
+    <link rel="stylesheet" href="../public/css/page.css">
+</head>
+<body>
+<!--导航部分-->
+<div class="zd_admin_head">
+    <div class="left_head">
+        <img src="../public/img/logo/logo.png" class="logo" alt="" draggable="false">
+        <span>深圳市正东厨房设备有限公司</span>
+    </div>
+    <div class="right_head">
+        <p>上次登录时间</p>
+        <span></span>
+        <div>|</div>
+        <span>退出登录</span>
+    </div>
+</div>
+<!--列表部分-->
+<div class="zd_admin_left_menu">
+    <ul>
+        <li><a href="main.html">网站基本信息</a></li>
+        <li><a href="banner.html">Banner管理</a></li>
+        <li><a href="user.html">用户管理</a></li>
+        <li><a href="productType.html">产品分类管理</a></li>
+        <li><a href="product.html">产品管理</a></li>
+        <li><a href="case.html">案例管理</a></li>
+        <li><a href="newsType.html">新闻类型管理</a></li>
+        <li><a href="news.html" class="left_menu_select">新闻管理</a></li>
+        <li><a href="service.html">客服管理</a></li>
+        <li><a href="link.html">友情连接管理</a></li>
+        <li><a href="company.html">公司信息</a></li>
+        <li><a href="recruit.html">招聘管理</a></li>
+        <li><a href="couple.html">用户反馈</a></li>
+    </ul>
+</div>
+<!--右侧内容-->
+<div class="zd_admin_right_content">
+    <div class="zd_admin_right_content_head"></div>
+    <div class="zd_admin_right_content_main">
+        <div class="ZD-ShowMain NewsShowMain">
+            <div class="ZD-Type NewsShowType">
+                <label>选择分类：</label>
+                <select></select>
+            </div>
+            <div class="ZD-ShowMains NewsShow">
+                <ul class="ZD-Ul NewsList">
+                    <li class="ZD-Ul-head NewsList-head"><span>新闻预览/标题</span><span>设置排序</span>
+                        <div>操作</div>
+                    </li>
+                </ul>
+                <div class="ZD-Bottom">
+                    <button class="ZD-Button">添加新闻</button>
+                    <div class="ZD-Page NewsPage"></div>
+                </div>
+            </div>
+        </div>
+        <div class="NewsMangerControl" style="display: none">
+            <p>编辑新闻</p>
+            <div class="ZD-Control-Panel">
+                <div><label>新闻标题：</label><input type="text" info></div>
+            </div>
+            <div class="ZD-Control-Panel">
+                <div>
+                    <label>设置排序：</label>
+                    <input type="text" info>
+                </div>
+            </div>
+            <div class="ZD-Control-Panel">
+                <div>
+                    <label>新闻分类：</label>
+                    <select info class="NewsMangerControlSelect"></select>
+                </div>
+                <!--<div><label>新闻图片：</label><span><img draggable="false"></span><label class="ZD-file productSelectFile">选择文件<input-->
+                <!--type="file" hidden info></label></div>-->
+            </div>
+            <div id="ZD_Update_Editor" info></div>
+            <div class="ZD-Control-Panel  ZD_Update_Button">
+                <button class="ZD-Button">返回</button>
+                <button class="ZD-Button">提交</button>
+            </div>
+        </div>
+        <div class="NewsMangerAdd" style="display: none">
+            <p>添加新闻</p>
+            <div class="ZD-Control-Panel">
+                <div><label>新闻标题：</label><input type="text" info></div>
+            </div>
+            <div class="ZD-Control-Panel">
+                <div><label>设置排序：</label><input type="text" placeholder="不填默认最后" info></div>
+            </div>
+            <div class="ZD-Control-Panel">
+                <div><label>新闻分类：</label>
+                    <select class="NewsMangerAddSelect" info></select>
+                </div>
+            </div>
+            <div id="ZD_Add_Editor" info></div>
+            <div class="ZD-Control-Panel ZD_Add_Button">
+                <button class="ZD-Button">返回</button>
+                <button class="ZD-Button">提交</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="public/js/jquery-3.3.1.js"></script>
+<script src="public/js/public.js" type="text/javascript"></script>
+<script src="public/js/admin.js" type="text/javascript"></script>
+<script src="http://cdn.quilljs.com/1.0.0/quill.js"></script>
+<link href="http://cdn.quilljs.com/1.0.0/quill.snow.css" rel="stylesheet">
+<script src="public/js/news.js" type="text/javascript"></script>
+</html>

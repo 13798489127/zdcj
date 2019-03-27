@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{title}</title>
+    <meta content="{keywords}" name="keywords">
+    <meta content="{description}" name="description">
+    <link rel="stylesheet" type="text/css" href="public/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="public/css/pluton.css">
+    <link rel="stylesheet" type="text/css" href="public/css/jquery.cslider.css">
+    <link rel="stylesheet" type="text/css" href="public/css/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="public/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+</head>
+<body>
+<!--导航-->
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand brand" href="index.html"><img src ='public/img/logo/logo.png' draggable="false"></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="example-navbar-collapse">
+            <ul class="nav navbar-nav ">
+                <li><a href="index.html">主页</a></li>
+                <li><a href="about.html">关于正东</a></li>
+                <li><a href="product.html">产品展示</a></li>
+                <li><a href="case.html">成功案例</a></li>
+                <li><a href="news.html">新闻动态</a></li>
+                <li class="active"><a href="recruit.html">人才招聘</a></li>
+                <li><a href="contact.html">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--头部banner-->
+<div id="home">
+    <!--头部banner-->
+    <div id="da-slider" class="da-slider">
+        <div class="triangle"></div>
+        <div class="mask"></div>
+        <div class="container">
+        </div>
+    </div>
+</div>
+<!--这里写主要内容-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="NavHeadContainer">人才招聘
+                <div class="NavHead-line">
+                    <h6 class="pull-right">
+                        <p> 当前位置：<a href="index.html">首页</a>>人才招聘 </p>
+                    </h6>
+                </div>
+            </div>
+            <div class="recruitPage">
+                {recruit}
+            </div>
+        </div>
+    </div>
+</div>
+<!--这里写主要内容-->
+<!--页脚-->
+<div class="footer">
+    <p>{footer}</p>
+</div>
+<!--回到顶部-->
+<div class="scrollup">
+    <a href="#home">
+        <i class="icon-up-open"></i>
+    </a>
+</div>
+</body>
+<script type="text/javascript" src="public/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="public/js/jquery/jquery.mixitup.js"></script>
+<script type="text/javascript" src="public/js/jquery/modernizr.custom.js"></script>
+<script type="text/javascript" src="public/js/jquery/jquery.cslider.js"></script>
+<script type="text/javascript" src="public/js/bootstrap.js"></script>
+<script type="text/javascript" src="admin/public/js/public.js"></script>
+<script type="text/javascript" src="public/js/public.js"></script>
+</html>
